@@ -127,7 +127,7 @@ JavaScript.
 Logs
    - Readme initialized.
    - Cookie "Poo" created.
-   - Responsive bootstrap design.
+   - Mobile design.
    - Actions: AddClick, Mega Boost, Mouse, Cat and Cow added.
    - Informative ribbon added. 
    - Animation of the little poo with react-pose.
