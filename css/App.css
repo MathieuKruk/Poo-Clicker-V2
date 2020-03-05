@@ -4,6 +4,7 @@ body {
   background: #fac499;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #fac499), to(#a2ff7d));
   background: linear-gradient(0deg, #fac499 2%, #a2ff7d 100%);
+  position: relative;
 }
 
 td {
@@ -27,8 +28,10 @@ td {
   height: 3rem;
   color: wheat;
   background-color: black;
-  position: fixed;
+  position: absolute;
+  right: 0;
   bottom: 0;
+  left: 0;
 }
 
 .componentFooter .footerIcon.fa {

@@ -4,6 +4,8 @@ body {
   background: #fac499;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #fac499), to(#a2ff7d));
   background: linear-gradient(0deg, #fac499 2%, #a2ff7d 100%);
+  position: relative;
+  height: 100vh;
 }
 
 td {
@@ -28,7 +30,7 @@ td {
   color: wheat;
   background-color: black;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
 }
 
 .componentFooter .footerIcon.fa {
@@ -40,7 +42,7 @@ td {
 }
 
 .boxGame {
-  height: 22rem;
+  height: 40rem;
   background-image: url(./components/Board/boardpark.jpg);
   background-size: cover;
   background-position: center;
@@ -59,7 +61,7 @@ td {
 }
 
 .boxAction {
-  height: 14.5rem;
+  height: 19.5rem;
   color: white;
   background-color: #764427;
   border: solid 3px black;
